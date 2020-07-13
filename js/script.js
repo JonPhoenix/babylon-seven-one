@@ -1,8 +1,6 @@
-// Babylon Day Planner script
-// Variables declaration
+// Babylon Day Planner jQuery script
 
-// jQuery
-$(document).planner(function() {
+$(document).ready(function() {
 
     // Function: Date and time in Header
     $('#currentDay').append();
@@ -23,12 +21,12 @@ $(document).planner(function() {
     $('5AM-row').attr('data-time', moment('5:00 pm', 'h:mm a').format('HH'));
 
     // For loop with conditionals if for color change per the hour:
-    let currentHour = moment().format('HH');
-    let currentHourInteger = parseInt(currentHour);
-    let inputHour = $('#' + i + 'row').attr('data-time');
-    let inputHourInteger = parseInt(inputHour);
+    var currentHour = moment().format('HH');
+    var currentHourInteger = parseInt(currentHour);
+    var inputHour = $('#' + i + 'row').attr('data-time');
+    var inputHourInteger = parseInt(inputHour);
 
-    for (var i = 0; i < 12; i++) {
+    for (var i = 0; i <= 12; i++) {
         if (currentHourInteger === inputHourInteger) {
             $('#' + i + 'row').addClass('past');
         }
