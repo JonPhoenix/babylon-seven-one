@@ -63,6 +63,7 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: royalblue;
   color: white;
+  cursor: pointer;
 }
 
 .saveBtn i:hover {
