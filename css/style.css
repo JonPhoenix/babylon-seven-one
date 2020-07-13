@@ -30,7 +30,7 @@ textarea{
   border-radius: 15px;
 }
 
-.planner-row {
+.row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
@@ -57,7 +57,7 @@ textarea{
   color: white;
 }
 
-.saveButton {
+.saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -65,7 +65,7 @@ textarea{
   color: white;
 }
 
-.saveButton i:hover {
+.saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
