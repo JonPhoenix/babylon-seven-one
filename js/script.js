@@ -22,17 +22,17 @@ $(document).ready(function () {
     // For loop with conditionals if for color change per the hour:
     for (var i = 0; i <= 12; i++) {
         var currentHour = moment().format('HH');
-        var currentHourInt = parseInt(currentHour);
+        var currentHourInteger = parseInt(currentHour);
         var inputHour = $('#' + i + 'Row').attr('data-time');
-        var inputHourInt = parseInt(inputHour);
+        var inputHourInteger = parseInt(inputHour);
 
-        if (currentHourInt === inputHourInt) {
-            $('#' + i + 'Row').addClass('present');
-        }
-        if (currentHourInt > inputHourInt) {
+        if (currentHourInteger > inputHourInteger) {
             $('#' + i + 'Row').addClass('past');
         }
-        if (currentHourInt < inputHourInt) {
+        if (currentHourInteger === inputHourInteger) {
+            $('#' + i + 'Row').addClass('present');
+        }
+        if (currentHourInteger < inputHourInteger) {
             $('#' + i + 'Row').addClass('future');
         }
     }
@@ -41,15 +41,15 @@ $(document).ready(function () {
 
     saveBtn.on('click', function () {
 
-        var rowHour = $(this).attr('data-hour');
-        var input = $("#" + rowHour + 'Row').val();
-        localStorage.setItem(rowHour, input);
+        var oneHour = $(this).attr('data-hour');
+        var userInput = $("#" + oneHour + 'Row').val();
+        localStorage.setItem(oneHour, userInput);
     });
 
-    function renderPlans() {
+    function savePlanner() {
         for (var i = 0; i <= 12; i++) {
             $('#' + i + 'Row').val(localStorage.getItem(i));
         }
     }
-    renderPlans();
+    savePlanner();
 }); 
