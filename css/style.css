@@ -43,6 +43,7 @@ textarea{
 
 .hour {
   background-color: ivory;
+  font-size: 12px;
   color: black;
   border-top: 1px dashed black;
 }
