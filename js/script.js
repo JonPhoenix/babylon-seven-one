@@ -1,6 +1,13 @@
 // Babylon Day Planner script
 // Variables declaration
-let myVariable
+
+// Function: Date and time in Header
+$('#currentDay').append();
+
+function currentDate() { 
+    $('#currentDay').html(moment().format('MMMM Do YYYY, h:mm a'));
+} setInterval(currentDate, 1000);
+
 
 // if / else if / else / conditionals
 if (condition) {
