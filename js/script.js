@@ -46,10 +46,10 @@ $(document).ready(function () {
         localStorage.setItem(oneHour, userInput);
     });
     // Function: Keeping data in localStorage after refreshing:
-    function savePlanner() {
+    function renderPlanner() {
         for (var i = 0; i <= 12; i++) {
             $('#' + i + 'Row').val(localStorage.getItem(i));
         }
     }
-    savePlanner();
+    renderPlanner();
 }); 
