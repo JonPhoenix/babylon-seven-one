@@ -20,3 +20,16 @@ Deployment url: https://jonphoenix.github.io/babylon-seven-one/
 * The user input events will be saved in the browser
 * Saved events will stay available after refreshing the app
 * Each time slot is color coded to indicate whether it is in a past, present, or future hour
+* Polished user-friendly application with a unique name
+
+```
+
+## Credits and References
+```
+* developer.mozilla.org
+
+
+```
+
+## Application Screenshots
+
