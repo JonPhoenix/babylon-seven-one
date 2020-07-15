@@ -27,7 +27,11 @@ Deployment url: https://jonphoenix.github.io/babylon-seven-one/
 ## Credits and References
 ```
 * developer.mozilla.org
+* w3schools.com
 
+* momentjs.com
+* zetcode.com
+* www.w3.org
 
 ```
 
