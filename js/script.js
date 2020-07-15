@@ -36,6 +36,7 @@ $(document).ready(function () {
             $('#' + i + 'Row').addClass('future');
         }
     }
+
     // Function: Save data button to localStorage on click:
     var saveBtn = $('.saveBtn');
 
@@ -45,6 +46,7 @@ $(document).ready(function () {
         var userInput = $("#" + oneHour + 'Row').val();
         localStorage.setItem(oneHour, userInput);
     });
+    
     // Function: Keeping data in localStorage after refreshing:
     function renderPlanner() {
         for (var i = 0; i <= 12; i++) {
