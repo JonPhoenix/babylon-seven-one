@@ -35,5 +35,7 @@ Deployment url: https://jonphoenix.github.io/babylon-seven-one/
 
 ```
 
-## Application Screenshots
+## Application Preview
+
+![Babylon Day Planner](https://user-images.githubusercontent.com/65391199/87511441-26cb3880-c62a-11ea-8eff-5ca3ba289103.png)
 
