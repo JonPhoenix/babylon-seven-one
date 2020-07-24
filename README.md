@@ -4,7 +4,7 @@ A simple calendar application that allows the user to save events for each hour 
 
 In a business context, managing productivity in a professional way is crucial for a company, this application allows employees to manage their time effectively by adding their important events every day. This day planner is the perfect tool for an excellent time management reducing the waste of time and ensuring that all project deadlines are met.
 
-The **Babylon Day Planner** application runs in the web browser and features a dynamically updated HTML and CSS interphase powered by jQuery and native JavaScript.
+The **Babylon Day Planner** application runs in the web browser and features a dynamically updated HTML and CSS interfase powered by jQuery and native JavaScript.
 
 Deployment url: https://jonphoenix.github.io/babylon-seven-one/
 
